@@ -1,7 +1,7 @@
 from sqlite.sqlite import Database
 
 # Usage example:
-db = Database('company.db')
+db = Database('db.sqlite')
 db.create_table()
 
 db.insert_employee('John Doe', 30, 5000.0)
